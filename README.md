@@ -49,6 +49,7 @@ SSH into your server - `vagrant ssh`
 * [WP-CLI 0.21.x](http://wp-cli.org)
 * [Wordpress 4.3.1](https://wordpress.org)
 
+View the [full list of packages](https://github.com/jalenconner/workpress/blob/master/PACKAGES.md).   
 Is there something that you think ought to be included here? Open an issue and let me know!
 
 ### Credentials
