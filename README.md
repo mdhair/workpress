@@ -84,4 +84,4 @@ View the full [changelog](https://github.com/jalenconner/workpress/blob/master/C
 Apache 2.0; view [license](https://github.com/jalenconner/workpress/blob/master/LICENSE)
 
 ### Thanks
-I'd like to give my thanks to (Christian Di Lorenzo)[https://github.com/rcdilorenzo] for giving me the idea for the name of this project and to (Luke Holloway)[https://github.com/hollowaydesignfirm] for his support and assistance.
+I'd like to give my thanks to [Christian Di Lorenzo](https://github.com/rcdilorenzo) for giving me the idea for the name of this project and to [Luke Holloway](https://github.com/hollowaydesignfirm) for his support and assistance.
