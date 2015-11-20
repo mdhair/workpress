@@ -1,6 +1,6 @@
 # Workpress
 ### A "Work Box" for Wordpress
-A work box, as defined by a Google search, means "a portable box used for storing or holding tools"`. And that is what I intend Workpress to be; a protable box used for storing all my favorite Wordpress developmetmn tools.
+A work box, as defined by a Google search, means "a portable box used for storing or holding tools"`. And that is what I intend Workpress to be; a protable box used for storing all my favorite Wordpress development tools.
 
 Workpress is a simple Vagrant base box running Ubuntu 14.04 and targeted for Wordpress development. Workpress is intended for Wordpress developers (like me) that would love to have a simple Vagrant box that installs Wordpress and all their favorite development tools. It is for people that find other great projects such as [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV), [VCCW](https://github.com/vccw-team/vccw), and [Scotch Box](https://github.com/scotch-io/scotch-box) a little too bulky for their work.
 
@@ -85,14 +85,3 @@ Apache 2.0; view [license](https://github.com/jalenconner/workpress/blob/master/
 
 ### Thanks
 I'd like to give my thanks to (Christian Di Lorenzo)[https://github.com/rcdilorenzo] for giving me the idea for the name of this project and to (Luke Holloway)[https://github.com/hollowaydesignfirm] for his support and assistance.
-
-
-
-
-
-
-
-
-
-
-
