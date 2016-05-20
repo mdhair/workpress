@@ -1,0 +1,3 @@
+---
+- include: wp-cli.yml
+- include: wordpress.yml
