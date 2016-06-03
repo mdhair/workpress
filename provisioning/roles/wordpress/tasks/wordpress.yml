@@ -28,7 +28,6 @@
   command: wp core download
   args:
       chdir: "{{ remote_wordpress_dir }}/"
-  remote_user: "{{ remote_deploy_user }}"
   when: wordpress_is_downloaded.stat.exists == False
   become_user: vagrant
 
@@ -39,7 +38,6 @@
            --dbuser="{{ wordpress_db_user }}"
            --dbpass="{{ wordpress_db_user_pass }}"
            --dbprefix="{{ wordpress_db_prefix }}"
-  remote_user: "{{ remote_deploy_user }}"
   when: wordpress_is_downloaded.stat.exists == False
   become_user: vagrant
 
@@ -49,7 +47,6 @@
     chdir: "{{ remote_wordpress_dir }}/"
   register: wordpress_is_installed
   ignore_errors: True
-  remote_user: "{{ remote_deploy_user }}"
   become_user: vagrant
 
 - name: Install WordPress tables
@@ -62,5 +59,4 @@
   args:
       chdir: "{{ remote_wordpress_dir }}/"
   when: wordpress_is_installed|failed
-  remote_user: "{{ remote_deploy_user }}"
   become_user: vagrant
