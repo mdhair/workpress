@@ -26,16 +26,16 @@
 
 - name: Apache should run under vagrant user
   lineinfile:
+    line="export APACHE_RUN_USER={{ remote_deploy_user }}"
     dest=/etc/apache2/envvars
-    regexp="^export APACHE_RUN_USER=www-data"
-    line="export APACHE_RUN_USER=vagrant"
+    state=present
   notify:
     - reload apache
 
 - name: Apache should run under vagrant group
   lineinfile:
+    line="export APACHE_RUN_GROUP={{ remote_deploy_user }}"
     dest=/etc/apache2/envvars
-    regexp="^export APACHE_RUN_GROUP=www-data"
-    line="export APACHE_RUN_GROUP=vagrant"
+    state=present
   notify:
     - reload apache
