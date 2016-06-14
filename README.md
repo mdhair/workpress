@@ -4,6 +4,8 @@ A work box, as defined by a Google search, means "a portable box used for storin
 
 Workpress is a simple Vagrant box running Ubuntu 14.04 and targeted for Wordpress development. Workpress is intended for Wordpress developers (like me) that would love to have a simple Vagrant box that installs Wordpress and all their favorite development tools. It is for people that find other great projects such as [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV), [VCCW](https://github.com/vccw-team/vccw), and [Scotch Box](https://github.com/scotch-io/scotch-box) a little too bulky for their work.
 
+Do you use Craft? Check out [Craftbox](https://github.com/jalenconner/craftbox), my Vagrant box for Craft development.
+
 ### Installation
 
 1. Install VirtualBox - https://www.virtualbox.org/
@@ -67,10 +69,6 @@ Is there something that you think ought to be included here? Open an issue and l
 Username | Password
 ---------|---------
 vagrant | vagrant
-##### MYSQL Users
-Username | Password
----------|---------
-workpress_user | workpress_pass
 ##### MYSQL Details
 Property | Value
 ---------|------
