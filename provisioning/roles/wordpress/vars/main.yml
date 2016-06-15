@@ -1,0 +1,12 @@
+remote_wordpress_dir: /vagrant
+remote_deploy_user: vagrant
+
+wordpress_db_name: workpress
+wordpress_db_user: workpress_user
+wordpress_db_user_pass: workpress_pass
+wordpress_db_prefix: workpress_
+wordpress_home_url: 192.168.33.10
+wordpress_site_title: Workpress Site
+wordpress_admin_user: workpress
+wordpress_admin_user_pass: workpress_pass
+wordpress_admin_email: workpress@example.com
